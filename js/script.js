@@ -26,3 +26,7 @@ new Swiper('.client__swiper', {
 
   
 });
+document.querySelector('.icon-menu').addEventListener('click', function () {
+   document.querySelector('.icon-menu').classList.toggle('active');
+   document.querySelector('.menu__body').classList.toggle('active');
+})
