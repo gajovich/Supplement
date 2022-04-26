@@ -1,442 +1,521 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-   <meta charset="UTF-8">
-   <meta http-equiv="X-UA-Compatible" content="IE=edge">
-   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-   <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css">
-   <link rel="stylesheet" href="css/style.min.css">
-   <title>Supplement</title>
+	<title>Главная</title>
+	<meta charset="UTF-8">
+	<meta name="format-detection" content="telephone=no">
+	<!-- <style>body{opacity: 0;}</style> -->
+	<link rel="stylesheet" href="css/style.min.css?_v=20220426170025">
+	<link rel="shortcut icon" href="favicon.ico">
+	<!-- <meta name="robots" content="noindex, nofollow"> -->
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 </head>
+
 <body>
-   <div class="wrapper">
+	<div class="wrapper">
+		<header class="header">
+			<div class="header__container">
+				<div class="header__top top-header">
+					<button type="button" class="menu__icon icon-menu"><span></span></button>
+					<a href="" class="top-header__logo"><picture><source srcset="img/logo.webp" type="image/webp"><img src="img/logo.png" alt="logo"></picture></a>
+					<div class="top-header__welcome" data-da=".header__bottom, 600">
+						<div class="top-header__logout">Welcome <span>Roma</span> — <a href="#">Logout</a></div>
+						<div class="top-header__balance">Your balance: <span>Р 0,00</span></div>
+					</div>
+					<div class="top-header__social social-header" data-da=".menu__body, 767.98">
+						<div class="social-header__main">
+							<a href="#"><img src="img/icons/facebook.svg" alt="facebook"></a>
+							<a href="#"><img src="img/icons/twitter.svg" alt="twitter"></a>
+							<a href="#"><img src="img/icons/facebook-messenger.svg" alt="facebook-messenger"></a>
+							<a href="#"><img src="img/icons/whatsapp.svg" alt="whatsapp"></a>
+						</div>
+						<div class="social-header__language">
+							<select name="form[language]" data-class-modif="form">
+								<option value="1" selected data-asset="img/icons/flag.svg">English</option>
+								<option value="2" data-asset="img/icons/flag.svg">Ukrain</option>
+							</select>
+						</div>
+					</div>
+				</div>
+				<div class="header__bottom">
+					<div class="header__menu menu">
+						<nav class="menu__body">
+							<ul class="menu__list">
+								<li class="menu__item"><a href="" class="menu__link">Home</a></li>
+								<li class="menu__item"><a href="" class="menu__link">PLAY ALL lottery</a></li>
+								<li class="menu__item"><a href="" class="menu__link">LOTTERY GROUPS</a></li>
+								<li class="menu__item"><a href="" class="menu__link">Promotions</a></li>
+							</ul>
+						</nav>
+					</div>
+					<div class="header__accaunt" data-da=".header__top, 767.98">
+						<a href="#">
+							<img src="img/icons/avatar.svg" alt="">
+							<span>My Account</span>
+						</a>
+					</div>
+				</div>
+			</div>
+		</header>
+		<main class="page">
+			<div class="banner">
+				<div class="banner__container">
+					<a href="#"><picture><source srcset="img/banner.webp" type="image/webp"><img src="img/banner.jpg" alt="banner"></picture></a>
+				</div>
+			</div>
+			<section class="instruction">
+				<div class="instruction__container">
+					<div class="instruction__items">
+						<div class="instruction__item item-instruction">
+							<div class="item-instruction__img">
+								<picture><source srcset="img/instruction/01.webp" type="image/webp"><img src="img/instruction/01.png" alt="img"></picture>
+							</div>
+							<div class="item-instruction__content">
+								<div class="item-instruction__top">
+									<h3 class="item-instruction__title">you pick</h3>
+									<a href="#" class="item-instruction__link">Play Now » </a>
+								</div>
+								<div class="item-instruction__text">It’s easy! Pick from over 40 official lottery games you wish
+									to play. Then select your winning numbers.</div>
+							</div>
+						</div>
+						<div class="instruction__item item-instruction">
+							<div class="item-instruction__img">
+								<picture><source srcset="img/instruction/02.webp" type="image/webp"><img src="img/instruction/02.png" alt="img"></picture>
+							</div>
+							<div class="item-instruction__content">
+								<div class="item-instruction__top">
+									<h3 class="item-instruction__title">we buy</h3>
+									<a href="#" class="item-instruction__link">More Details »</a>
+								</div>
+								<div class="item-instruction__text">Once you’ve picked your winning numbers we’ll purchase your
+									ticket on your behalf.</div>
+							</div>
+						</div>
+						<div class="instruction__item item-instruction">
+							<div class="item-instruction__img">
+								<picture><source srcset="img/instruction/03.webp" type="image/webp"><img src="img/instruction/03.png" alt="img"></picture>
+							</div>
+							<div class="item-instruction__content">
+								<div class="item-instruction__top">
+									<h3 class="item-instruction__title">you win!!!</h3>
+									<a href="#" class="item-instruction__link">Withdraw My Winnings »</a>
+								</div>
+								<div class="item-instruction__text">When you win, we’ll automatically credit your account the
+									full value of your winnings.</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</section>
+			<section class="upcoming">
+				<div class="upcoming__container">
+					<h2 class="upcoming__title title">BIGGEST UPCOMING LOTTERY DRAWS</h2>
+					<div class="upcoming__items">
+						<div class="upcoming__item item-upcoming">
+							<div class="item-upcoming__top">
+								<a href="#" class="item-upcoming__img">
+									<picture><source srcset="img/upcoming/1.webp" type="image/webp"><img src="img/upcoming/1.png" alt="logo"></picture>
+								</a>
+								<div class="item-upcoming__info">
+									<div class="item-upcoming__title">
+										<img src="img/icons/flag.svg" alt="flag">
+										<span>Mega Millions</span>
+									</div>
+									<div class="item-upcoming__price">$94 000 000</div>
+								</div>
+							</div>
+							<div class="item-upcoming__bottom">
+								<a href="#" class="item-upcoming__btn btn">Play Now</a>
+								<div class="item-upcoming__time">
+									<picture><source srcset="img/icons/alarm.webp" type="image/webp"><img src="img/icons/alarm.png" alt="alarm"></picture>
+									<span>1:22:01</span>
+								</div>
+							</div>
+						</div>
+						<div class="upcoming__item item-upcoming">
+							<div class="item-upcoming__top">
+								<a href="#" class="item-upcoming__img">
+									<picture><source srcset="img/upcoming/2.webp" type="image/webp"><img src="img/upcoming/2.png" alt="logo"></picture>
+								</a>
+								<div class="item-upcoming__info">
+									<div class="item-upcoming__title">
+										<img src="img/icons/flag.svg" alt="flag">
+										<span>Mega Millions</span>
+									</div>
+									<div class="item-upcoming__price">$94 000 000</div>
+								</div>
+							</div>
+							<div class="item-upcoming__bottom">
+								<a href="#" class="item-upcoming__btn btn">Play Now</a>
+								<div class="item-upcoming__time">
+									<picture><source srcset="img/icons/alarm.webp" type="image/webp"><img src="img/icons/alarm.png" alt="alarm"></picture>
+									<span>1:22:01</span>
+								</div>
+							</div>
+						</div>
+						<div class="upcoming__item item-upcoming">
+							<div class="item-upcoming__top">
+								<a href="#" class="item-upcoming__img">
+									<picture><source srcset="img/upcoming/3.webp" type="image/webp"><img src="img/upcoming/3.png" alt="logo"></picture>
+								</a>
+								<div class="item-upcoming__info">
+									<div class="item-upcoming__title">
+										<img src="img/icons/flag.svg" alt="flag">
+										<span>Mega Millions</span>
+									</div>
+									<div class="item-upcoming__price">$94 000 000</div>
+								</div>
+							</div>
+							<div class="item-upcoming__bottom">
+								<a href="#" class="item-upcoming__btn btn">Play Now</a>
+								<div class="item-upcoming__time">
+									<picture><source srcset="img/icons/alarm.webp" type="image/webp"><img src="img/icons/alarm.png" alt="alarm"></picture>
+									<span>1:22:01</span>
+								</div>
+							</div>
+						</div>
 
-      <header class="header">
-         <div class="header__container container">
-            <div>
-               <a href="#" class="header__logo">
-                  <img src="img/header/logo.png" alt="logo">
-                  <span>Supplement</span>
-               </a>
-            </div>
-            <div class="header__burger">
-                  <nav class="header__menu menu">
-                     <div class="menu__icon icon-menu">
-                        <span></span>
-                        <span></span>
-                        <span></span>
-                     </div>
-                     <div class="menu__body">
-                        <ul class="menu__list">
-                           <li><a href="" class="menu__link">About</a></li>
-                           <li><a href="" class="menu__link">Terms</a></li>
-                           <li><a href="" class="menu__link">Privacy</a></li>
-                           <li><a href="" class="menu__link">Contact</a></li>
-                        </ul>
-                     </div>
-                  </nav>
-               <!-- <a href="#">
-                  <img src="img/header/burger.png" alt="burger">
-               </a> -->
-            </div>
-         </div>
-         
-      </header>
+					</div>
+				</div>
+			</section>
+			<section class="online">
+				<div class="online__container">
+					<div class="online__title title-red">PLAY UPCOMING LOTTERIES ONLINE</div>
+					<div class="online__items">
+						<div class="online__item item-online">
+							<picture><source srcset="img/online/star.webp" type="image/webp"><img class="item-online__star" src="img/online/star.png" alt="star"></picture>
+							<a href="#" class="item-online__img"><picture><source srcset="img/online/logo.webp" type="image/webp"><img src="img/online/logo.png" alt="logo"></picture></a>
+							<div class="item-online__title">
+								<img src="img/icons/flag.svg" alt="flag">
+								<span>Mega Millions</span>
+							</div>
+							<div class="item-online__price">$122 000 000</div>
+							<div class="item-online__time">
+								<picture><source srcset="img/online/alarm.webp" type="image/webp"><img src="img/online/alarm.png" alt="alarm"></picture>
+								<span>1:22:01</span>
+							</div>
+							<a href="#" class="item-online__btn btn">Play Now</a>
+						</div>
+						<div class="online__item item-online">
+							<picture><source srcset="img/online/star.webp" type="image/webp"><img class="item-online__star" src="img/online/star.png" alt="star"></picture>
+							<a href="#" class="item-online__img"><picture><source srcset="img/online/logo.webp" type="image/webp"><img src="img/online/logo.png" alt="logo"></picture></a>
+							<div class="item-online__title">
+								<img src="img/icons/flag.svg" alt="flag">
+								<span>Mega Millions</span>
+							</div>
+							<div class="item-online__price">$122 000 000</div>
+							<div class="item-online__time">
+								<picture><source srcset="img/online/alarm.webp" type="image/webp"><img src="img/online/alarm.png" alt="alarm"></picture>
+								<span>1:22:01</span>
+							</div>
+							<a href="#" class="item-online__btn btn">Play Now</a>
+						</div>
+						<div class="online__item item-online">
+							<picture><source srcset="img/online/star.webp" type="image/webp"><img class="item-online__star" src="img/online/star.png" alt="star"></picture>
+							<a href="#" class="item-online__img"><picture><source srcset="img/online/logo.webp" type="image/webp"><img src="img/online/logo.png" alt="logo"></picture></a>
+							<div class="item-online__title">
+								<img src="img/icons/flag.svg" alt="flag">
+								<span>Mega Millions</span>
+							</div>
+							<div class="item-online__price">$122 000 000</div>
+							<div class="item-online__time">
+								<picture><source srcset="img/online/alarm.webp" type="image/webp"><img src="img/online/alarm.png" alt="alarm"></picture>
+								<span>1:22:01</span>
+							</div>
+							<a href="#" class="item-online__btn btn">Play Now</a>
+						</div>
+						<div class="online__item item-online">
+							<picture><source srcset="img/online/star.webp" type="image/webp"><img class="item-online__star" src="img/online/star.png" alt="star"></picture>
+							<a href="#" class="item-online__img"><picture><source srcset="img/online/logo.webp" type="image/webp"><img src="img/online/logo.png" alt="logo"></picture></a>
+							<div class="item-online__title">
+								<img src="img/icons/flag.svg" alt="flag">
+								<span>Mega Millions</span>
+							</div>
+							<div class="item-online__price">$122 000 000</div>
+							<div class="item-online__time">
+								<picture><source srcset="img/online/alarm.webp" type="image/webp"><img src="img/online/alarm.png" alt="alarm"></picture>
+								<span>1:22:01</span>
+							</div>
+							<a href="#" class="item-online__btn btn">Play Now</a>
+						</div>
+						<div class="online__item item-online">
+							<picture><source srcset="img/online/star.webp" type="image/webp"><img class="item-online__star" src="img/online/star.png" alt="star"></picture>
+							<a href="#" class="item-online__img"><picture><source srcset="img/online/logo.webp" type="image/webp"><img src="img/online/logo.png" alt="logo"></picture></a>
+							<div class="item-online__title">
+								<img src="img/icons/flag.svg" alt="flag">
+								<span>Mega Millions</span>
+							</div>
+							<div class="item-online__price">$122 000 000</div>
+							<div class="item-online__time">
+								<picture><source srcset="img/online/alarm.webp" type="image/webp"><img src="img/online/alarm.png" alt="alarm"></picture>
+								<span>1:22:01</span>
+							</div>
+							<a href="#" class="item-online__btn btn">Play Now</a>
+						</div>
+						<div class="online__item item-online">
+							<picture><source srcset="img/online/star.webp" type="image/webp"><img class="item-online__star" src="img/online/star.png" alt="star"></picture>
+							<a href="#" class="item-online__img"><picture><source srcset="img/online/logo.webp" type="image/webp"><img src="img/online/logo.png" alt="logo"></picture></a>
+							<div class="item-online__title">
+								<img src="img/icons/flag.svg" alt="flag">
+								<span>Mega Millions</span>
+							</div>
+							<div class="item-online__price">$122 000 000</div>
+							<div class="item-online__time">
+								<picture><source srcset="img/online/alarm.webp" type="image/webp"><img src="img/online/alarm.png" alt="alarm"></picture>
+								<span>1:22:01</span>
+							</div>
+							<a href="#" class="item-online__btn btn">Play Now</a>
+						</div>
+						<div class="online__item item-online">
+							<picture><source srcset="img/online/star.webp" type="image/webp"><img class="item-online__star" src="img/online/star.png" alt="star"></picture>
+							<a href="#" class="item-online__img"><picture><source srcset="img/online/logo.webp" type="image/webp"><img src="img/online/logo.png" alt="logo"></picture></a>
+							<div class="item-online__title">
+								<img src="img/icons/flag.svg" alt="flag">
+								<span>Mega Millions</span>
+							</div>
+							<div class="item-online__price">$122 000 000</div>
+							<div class="item-online__time">
+								<picture><source srcset="img/online/alarm.webp" type="image/webp"><img src="img/online/alarm.png" alt="alarm"></picture>
+								<span>1:22:01</span>
+							</div>
+							<a href="#" class="item-online__btn btn">Play Now</a>
+						</div>
+						<div class="online__item item-online">
+							<picture><source srcset="img/online/star.webp" type="image/webp"><img class="item-online__star" src="img/online/star.png" alt="star"></picture>
+							<a href="#" class="item-online__img"><picture><source srcset="img/online/logo.webp" type="image/webp"><img src="img/online/logo.png" alt="logo"></picture></a>
+							<div class="item-online__title">
+								<img src="img/icons/flag.svg" alt="flag">
+								<span>Mega Millions</span>
+							</div>
+							<div class="item-online__price">$122 000 000</div>
+							<div class="item-online__time">
+								<picture><source srcset="img/online/alarm.webp" type="image/webp"><img src="img/online/alarm.png" alt="alarm"></picture>
+								<span>1:22:01</span>
+							</div>
+							<a href="#" class="item-online__btn btn">Play Now</a>
+						</div>
+						<div class="online__item item-online">
+							<picture><source srcset="img/online/star.webp" type="image/webp"><img class="item-online__star" src="img/online/star.png" alt="star"></picture>
+							<a href="#" class="item-online__img"><picture><source srcset="img/online/logo.webp" type="image/webp"><img src="img/online/logo.png" alt="logo"></picture></a>
+							<div class="item-online__title">
+								<img src="img/icons/flag.svg" alt="flag">
+								<span>Mega Millions</span>
+							</div>
+							<div class="item-online__price">$122 000 000</div>
+							<div class="item-online__time">
+								<picture><source srcset="img/online/alarm.webp" type="image/webp"><img src="img/online/alarm.png" alt="alarm"></picture>
+								<span>1:22:01</span>
+							</div>
+							<a href="#" class="item-online__btn btn">Play Now</a>
+						</div>
+						<div class="online__item item-online">
+							<picture><source srcset="img/online/star.webp" type="image/webp"><img class="item-online__star" src="img/online/star.png" alt="star"></picture>
+							<a href="#" class="item-online__img"><picture><source srcset="img/online/logo.webp" type="image/webp"><img src="img/online/logo.png" alt="logo"></picture></a>
+							<div class="item-online__title">
+								<img src="img/icons/flag.svg" alt="flag">
+								<span>Mega Millions</span>
+							</div>
+							<div class="item-online__price">$122 000 000</div>
+							<div class="item-online__time">
+								<picture><source srcset="img/online/alarm.webp" type="image/webp"><img src="img/online/alarm.png" alt="alarm"></picture>
+								<span>1:22:01</span>
+							</div>
+							<a href="#" class="item-online__btn btn">Play Now</a>
+						</div>
 
-      <main class="main">
-
-         <section class="doit">
-            <div class="doit__content">
-               <div class="doit__container container">
-                  <div class="doit__body-content">
-                     <div class="doit__general-title">
-                        <div class="doit__title">Do It Now</div>
-                        <div class="doit__subtitle">Or You Never Get It Back</div>
-                     </div>
-                     <div class="doit__text">Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod
-                        tincidunt.</div>
-                     <div class="doit__buttons">
-                        <a href="#" class="doit__button">ORDER NOW</a>
-                        <a href="#" class="doit__pseudo-button">
-                           <span>Watch The Video</span>
-                           <img src="img/doit/play.png" alt="">
-                        </a>
-                     </div>
-                  </div>
-               </div>
-            </div>
-            <div class="doit__img">
-               <img src="img/doit/bottles.png" alt="">
-            </div>
-         </section>
-
-         <section class="amount">
-            <div class="amount__container container">
-               <div class="amount__img"><img src="img/amount/one_bottl.png" alt=""></div>
-               <div class="amount__columns">
-                  <div class="amount__column">
-                     <div class="amount__value">100</div>
-                     <div class="amount__title">MG</div>
-                     <div class="amount__subtitle">Per Capsule</div>
-                  </div>
-                  <div class="amount__column">
-                     <div class="amount__value">60</div>
-                     <div class="amount__title">Capsules</div>
-                     <div class="amount__subtitle">Per Bottle</div>
-                  </div>
-                  <div class="amount__column">
-                     <div class="amount__value">900</div>
-                     <div class="amount__title">PLUS</div>
-                     <div class="amount__subtitle">Satisfied Customers</div>
-                  </div>
-               </div>
-            </div>
-         </section>
-
-         <section class="fetures">
-            <div class="fetures__container container">
-               <div class="fetures__title title-block">
-                  <div class="title-block__title"><span class="title-bold">Fetures</span><span class="title-normal">We Offer</span></div>
-                  <div class="title-block__subtitle">Don’t forget to check these real success.</div>
-               </div>
-               <div class="fetures__columns">
-                  <div class="fetures__column column-left fetures-column">
-                     <div class="fetures-column__rows">
-                        <div class="fetures-column__row">
-                           <div class="fetures-column__title title--r">Increased Energy</div>
-                           <div class="fetures-column__text">Lorem ipsum dolor sit amet, consec tetuer adipiscing elit, sed diam
-                              nonu</div>
-                        </div>
-                        <div class="fetures-column__row">
-                           <div class="fetures-column__title title--r">Weight Loss</div>
-                           <div class="fetures-column__text">Lorem ipsum dolor sit amet, consec tetuer adipiscing elit, sed diam
-                              nonu</div>
-                        </div>
-                     </div>
-                  </div>
-                  <div class="fetures__column column-img"><img src="img/fetures/fetures.png" alt=""></div>
-                  <div class="fetures__column column-right fetures-column">
-                     <div class="fetures-column__rows">
-                        <div class="fetures-column__row">
-                           <div class="fetures-column__title title--l">Bone Builder</div>
-                           <div class="fetures-column__text">Lorem ipsum dolor sit amet, consec tetuer adipiscing elit, sed diam
-                              nonu</div>
-                        </div>
-                        <div class="fetures-column__row">
-                           <div class="fetures-column__title title--l">Stress Release</div>
-                           <div class="fetures-column__text">Lorem ipsum dolor sit amet, consec tetuer adipiscing elit, sed diam
-                              nonu</div>
-                        </div>
-                     </div>
-                  </div>
-               </div>
-            </div>
-         </section>
-
-         <section class="real">
-            <div class="real__container container">
-               <div class="real__title title-block">
-                  <div class="title-block__title"><span class="title-bold">Real Man</span><span class="title-normal">Real Results</span>
-                  </div>
-                  <div class="title-block__subtitle">Don’t forget to check these real success.</div>
-               </div>
-               <div class="real__swiper swiper-real">
-                  <div class="swiper-wrapper">
-                     <div class="swiper-real__slide real-slide swiper-slide">
-                        <div class="real-slide__img"><img src="img/real/before_afte.png" alt=""></div>
-                        <div class="real-slide__text">
-                           <div class="real-slide__before-after">
-                              <div class="before-after__column">
-                                 <div class="before-after__value">87<span>Kg</span></div>
-                                 <div class="before-after__title">Before</div>
-                              </div>
-                                 <div class="before-after__column">
-                                    <div class="before-after__value">63<span>Kg</span></div>
-                                    <div class="before-after__title">After</div>
-                                 </div>
-                           </div>
-                           <div class="real-slide__person title">
-                              <div class="real-slide__name title-name">Mike Andersen</div>
-                              <div class="real-slide__age titl-age">Age: 28</div>
-                           </div>
-                        </div>
-                     </div>
-                     <div class="swiper-real__slide real-slide swiper-slide">
-                        <div class="real-slide__img"><img src="img/real/before_afte.png" alt=""></div>
-                        <div class="real-slide__text">
-                           <div class="real-slide__before-after">
-                              <div class="before-after__column">
-                                 <div class="before-after__value">87<span>Kg</span></div>
-                                 <div class="before-after__title">Before</div>
-                              </div>
-                              <div class="before-after__column">
-                                 <div class="before-after__value">63<span>Kg</span></div>
-                                 <div class="before-after__title">After</div>
-                              </div>
-                           </div>
-                           <div class="real-slide__person title">
-                              <div class="real-slide__name title-name">Mike Andersen</div>
-                              <div class="real-slide__age titl-age">Age: 28</div>
-                           </div>
-                        </div>
-                     </div>
-                     <div class="swiper-real__slide real-slide swiper-slide">
-                        <div class="real-slide__img"><img src="img/real/before_afte.png" alt=""></div>
-                        <div class="real-slide__text">
-                           <div class="real-slide__before-after">
-                              <div class="before-after__column">
-                                 <div class="before-after__value">87<span>Kg</span></div>
-                                 <div class="before-after__title">Before</div>
-                              </div>
-                              <div class="before-after__column">
-                                 <div class="before-after__value">63<span>Kg</span></div>
-                                 <div class="before-after__title">After</div>
-                              </div>
-                           </div>
-                           <div class="real-slide__person title">
-                              <div class="real-slide__name title-name">Mike Andersen</div>
-                              <div class="real-slide__age titl-age">Age: 28</div>
-                           </div>
-                        </div>
-                     </div>
-                  </div>
-                  <div class="swiper-real__dots"></div>
-                  <div class="swiper-real__control">
-                     <div class="swiper-real__arrow-prev"><img src="img/real/arrow.png" alt=""></div>
-                     <div class="swiper-real__arrow-next"><img src="img/real/arrow.png" alt=""></div>
-                  </div>
-               </div>
-            </div>
-         </section>
-
-         <section class="client">
-            <div class="client__container container">
-               <div class="client__title title-block ">
-                  <div class="title-block__title title-block--w"><span class="title-bold">Client</span><span class="title-normal">TESTIMONIALS</span>
-                  </div>
-                  <div class="title-block__subtitle title-block--w">We don’t just sell, we’re beloved too.</div>
-               </div>
-               <div class="client__swiper swiper-container">
-                  <div class="swiper-wrapper">
-                     <div class="client__slide swiper-slide">
-                        <div class="client__text">Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore
-                        magna aliquam erat volutpat. Ut wisi enim ad minimveniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl
-                        ut aliquip. sed diam nonummy nibh euismod.</div>
-                        <div class="client__row">
-                           <div class="client__img"><img src="img/client/person.png" alt=""></div>
-                           <div class="client__person">
-                              <div class="client__name">Alena Parker</div>
-                              <div class="client__adress">Sydney, Australia</div>
-                           </div>
-                        </div>
-                     </div>
-                     <div class="client__slide swiper-slide">
-                        <div class="client__text">Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod
-                           tincidunt ut laoreet dolore
-                           magna aliquam erat volutpat. Ut wisi enim ad minimveniam, quis nostrud exerci tation ullamcorper suscipit lobortis
-                           nisl
-                           ut aliquip. sed diam nonummy nibh euismod.</div>
-                        <div class="client__row">
-                           <div class="client__img"><img src="img/client/person.png" alt=""></div>
-                           <div class="client__person">
-                              <div class="client__name">Alena Parker</div>
-                              <div class="client__adress">Sydney, Australia</div>
-                           </div>
-                        </div>
-                     </div>
-                     <div class="client__slide swiper-slide">
-                        <div class="client__text">Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod
-                           tincidunt ut laoreet dolore
-                           magna aliquam erat volutpat. Ut wisi enim ad minimveniam, quis nostrud exerci tation ullamcorper suscipit lobortis
-                           nisl
-                           ut aliquip. sed diam nonummy nibh euismod.</div>
-                        <div class="client__row">
-                           <div class="client__img"><img src="img/client/person.png" alt=""></div>
-                           <div class="client__person">
-                              <div class="client__name">Alena Parker</div>
-                              <div class="client__adress">Sydney, Australia</div>
-                           </div>
-                        </div>
-                     </div>
-                  </div>
-                  <div class="client__dots"></div>
-               </div>
-            </div>
-            
-         </section>
-
-         <secction class="supplement">
-            <div class="supplement__container container">
-               <div class="supplement__title title-block ">
-                  <div class="title-block__title">
-                     <span class="title-bold">Supplement</span>
-                     <span class="title-normal">Facts</span>
-                  </div>
-                  <div class="title-block__subtitle">We’re brave enough to show what we use.</div>
-               </div>
-               <div class="supplement__columns">
-                  <div class="supplement__column supplement-left">
-                     <div class="supplement-left__header">
-                        <div class="supplement-left__title">Ingredients</div>
-                        <div class="supplement-left__level">Per Serving<span>(MG)</span></div>
-                     </div>
-                     <ul class="supplement-left__list">
-                        <li>
-                           <div class="supplement-left__value">Citrus Aurantium</div>
-                           <div class="supplement-left__number">100</div>
-                        </li>
-                        <li>
-                           <div class="supplement-left__value">Green Coffee Extract</div>
-                           <div class="supplement-left__number">72</div>
-                        </li>
-                        <li>
-                           <div class="supplement-left__value">Green Tea Extract</div>
-                           <div class="supplement-left__number">88</div>
-                        </li>
-                        <li>
-                           <div class="supplement-left__value">Guarana Extract w/ 10% Caffeine</div>
-                           <div class="supplement-left__number">4</div>
-                        </li>
-                        <li>
-                           <div class="supplement-left__value">L-Phenylalanine</div>
-                           <div class="supplement-left__number">67</div>
-                        </li>
-                        <li>
-                           <div class="supplement-left__value">Niacin</div>
-                           <div class="supplement-left__number">87</div>
-                        </li>
-                        <li>
-                           <div class="supplement-left__value">Red Pepper Extract</div>
-                           <div class="supplement-left__number">323</div>
-                        </li>
-                        <li>
-                           <div class="supplement-left__value">Vitamin B6</div>
-                           <div class="supplement-left__number">8</div>
-                        </li>
-                     </ul>
-                     <a href="#" class="supplement-left__btn supplement-btn">
-                        <span class="supplement-btn__name">Download Specs</span>
-                        <span class="supplement-btn__value">(50kb)</span>
-                     </a>
-                  </div>
-                  <div class="supplement__column supplement-right">
-                     <div class="supplement-right__img">
-                        <img src="img/supplement/supplement_right__img.png" alt="">
-                     </div>
-                     <div class="supplement-right__title title">
-                        
-                           <div class="supplement-right__name title-name">Green Coffee Extract</div>
-                           <div class="supplement-right__age">72 mg</div>
-                        
-                     </div>
-                     <div class="supplement-right__text">
-                        Lorem ipsum dolor sit amet, consectetuer adipis cing elit, sed diam nonummy nibh euismod tincidu nt ut laoreet dolore
-                        magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper.
-                     </div>
-                  </div>
-               </div>
-            </div>
-         </secction>
-
-         <section class="certifications">
-            <div class="certifications__container container">
-               <div class="certifications__title title-block">
-                  <div class="title-block__title">
-                     <span class="title-bold">Certifications</span>
-                  </div>
-                  <div class="title-block__subtitle">We don’t sell craps, We’re certified.</div>
-               </div>
-               <div class="certifications__row">
-                  <div class="certifications__logo"><img src="img/certifications/logo1.png" alt=""></div>
-                  <div class="certifications__logo"><img src="img/certifications/logo2.png" alt=""></div>
-                  <div class="certifications__logo"><img src="img/certifications/logo3.png" alt=""></div>
-                  <div class="certifications__logo"><img src="img/certifications/logo4.png" alt=""></div>
-                  <div class="certifications__logo"><img src="img/certifications/logo5.png" alt=""></div>
-               </div>
-            </div>
-         </section>
-
-         <section class="asupplement">
-            <div class="asupplement__img">
-               <img src="img/asupplmant/layers.png" alt="">
-            </div>
-            <div class="asupplement__content">
-               <div class="asupplement__container container">
-                  <div class="asupplement__body-content">
-                     <div class="asupplement__title title">
-                        <div class="asupplement__name title-name">A Supplement</div>
-                        <div class="asupplement__age">$29 USD</div>
-                     </div>
-                     <div class="asupplement__text">
-                        Lorem ipsum dolor sit amet, consectetuer adipis cing elit, sed diam nonummy nibh euismod tincidu nt ut laoreet.
-                     </div>
-                     <a href="#" class="asupplement__btn btn">ORDER NOW</a>
-                  </div>
-               </div>
-            </div>
-         </section>
-
-         <section class="subscribe">
-            <div class="subscribe__container container">
-               <div class="subscribe__title title-block ">
-                  <div class="title-block__title title-block--w">
-                     <span class="title-bold">Subscribe</span>
-                     <span class="title-normal">for tips & Offers</span>
-                  </div>
-                  <div class="title-block__subtitle title-block--w">We regularly knock our customers with useful tips and offers.</div>
-               </div>
-               <form action="#" class="subscribe__form">
-                  <input type="email" class="subscribe__input" placeholder="Enter Your Email">
-                  <button type="submit" class="subscribe__btn">Subscribe</button>
-               </form>
-            </div>
-            
-         </section>
-
-         <section class="inquire">
-            <div class="inquire__container container">
-               <div class="inquire__title title-block ">
-                  <div class="title-block__title">
-                     <span class="title-bold">Inquire</span>
-                     <span class="title-normal">Your Issue</span>
-                  </div>
-                  <div class="title-block__subtitle">We’re always happy to reply our customers.</div>
-               </div>
-               <form action="#" class="inquire__form form-inquire">
-                  <input type="text" placeholder="Name" class="form-inquire__name">
-                  <input type="email" placeholder="Email" class="form-inquire__email">
-                  <div class="form-inquire__title">Subject</div>
-                  <textarea type="textarea" class="form-inquire__textarea"></textarea>
-                  <button type="submit" class="form-inquire__send">Send</button>
-               </form>
-            </div>
-         </section>
-
-        
-
-      </main>
-
-      <footer class="footer">
-         <div class="footer__container container">
-            <div class="footer__row">
-               <div class="footer__left">
-                  <div class="footer__rights">© Amazon LLC. All Rights Reserved</div>
-                  <ul class="footer__list">
-                     <li class="footer__link"><a href="#">About</a></li>
-                     <li class="footer__link"><a href="#">Terms</a></li>
-                     <li class="footer__link"><a href="#">Privacy</a></li>
-                     <li class="footer__link"><a href="#">Contact</a></li>
-                  </ul>
-               </div>
-               <div class="footer__right">
-                  <a href="#"><img src="img/footer/social.png" alt=""></a>
-               </div>
-            </div>
-         </div>
-      </footer>
-
-   </div>
-   <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
-   <script src="js/script.min.js"></script>
+					</div>
+					<div class="online__link">
+						<a href="#">More Details »</a>
+					</div>
+				</div>
+			</section>
+			<section class="winner">
+				<div class="winner__container">
+					<div class="winner__body">
+						<div class="winner__biggest biggest-winner">
+							<h2 class="biggest-winner__title title-red">BIGGEST LOTTERY WINNER</h2>
+							<div class="biggest-winner__body">
+								<div class="biggest-winner__subtitle">
+									<picture><source srcset="img/winner/lotto.webp" type="image/webp"><img src="img/winner/lotto.png" alt="lotto"></picture>
+									<span><span>Won</span><span class="biggest-winner__won">€100 000 000</span></span>
+								</div>
+								<div class="biggest-winner__row">
+									<div class="biggest-winner__result result-winner">
+										<picture><source srcset="img/winner/winners.webp" type="image/webp"><img src="img/winner/winners.png" alt="winners"></picture>
+										<div class="result-winner__row">
+											<div class="result-winner__title">UK Lotto results:</div>
+											<div class="result-winner__body">
+												<div class="result-winner__numbers">
+													<span>7</span>
+													<span>7</span>
+													<span>7</span>
+													<span>7</span>
+													<span>7</span>
+												</div>
+												<div class="result-winner__date">Date: 20.11.2021</div>
+											</div>
+										</div>
+									</div>
+									<div class="biggest-winner__content content-winner">
+										<h3 class="content-winner__title">Shaun Vincent a Lottery Winner</h3>
+										<div class="content-winner__text">Shaun Vincent, from Barnsley, celebrates his £1,158,038
+											National Lottery win after his cheque presentation at the Cedar Court Hotel, Wakefield.
+										</div>
+										<div class="content-winner__link"><a href="#">Read the full story</a></div>
+										<a href="#" class="content-winner__btn btn">Play Now</a>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="winner__latest latest-winner">
+							<div class="latest-winner__title title-red">OUR LATEST WINNERS</div>
+							<div class="latest-winner__total total-winners">
+								<div class="total-winners__title">Total prizes paid out</div>
+								<div class="total-winners__prize">US$ 107 233 768</div>
+								<div class="total-winners__text"><span>6 975 146</span> winning tickets</div>
+							</div>
+							<div class="latest-winner__items">
+								<div class="latest-winner__item item-latest">
+									<div class="item-latest__img"><picture><source srcset="img/winner/winner.webp" type="image/webp"><img src="img/winner/winner.png" alt=""></picture></div>
+									<div class="item-latest__content">
+										<div class="item-latest__date">20.11.2021</div>
+										<div class="item-latest__name">
+											<picture><source srcset="img/winner/Country.webp" type="image/webp"><img src="img/winner/Country.png" alt=""></picture>
+											<span>J.J won Р175</span>
+										</div>
+										<div class="item-latest__draw">in 7 ИЗ 49 draw #13476</div>
+									</div>
+								</div>
+								<div class="latest-winner__item item-latest">
+									<div class="item-latest__img"><picture><source srcset="img/winner/winner.webp" type="image/webp"><img src="img/winner/winner.png" alt=""></picture></div>
+									<div class="item-latest__content">
+										<div class="item-latest__date">20.11.2021</div>
+										<div class="item-latest__name">
+											<picture><source srcset="img/winner/Country.webp" type="image/webp"><img src="img/winner/Country.png" alt=""></picture>
+											<span>J.J won Р175</span>
+										</div>
+										<div class="item-latest__draw">in 7 ИЗ 49 draw #13476</div>
+									</div>
+								</div>
+								<div class="latest-winner__item item-latest">
+									<div class="item-latest__img"><picture><source srcset="img/winner/winner.webp" type="image/webp"><img src="img/winner/winner.png" alt=""></picture></div>
+									<div class="item-latest__content">
+										<div class="item-latest__date">20.11.2021</div>
+										<div class="item-latest__name">
+											<picture><source srcset="img/winner/Country.webp" type="image/webp"><img src="img/winner/Country.png" alt=""></picture>
+											<span>J.J won Р175</span>
+										</div>
+										<div class="item-latest__draw">in 7 ИЗ 49 draw #13476</div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</section>
+			<section class="faq">
+				<div class="faq__container">
+					<h2 class="faq__title title">FREQUENTLY ASKED QUESTION (F.A.Q.)</h2>
+					<div data-spollers data-one-spoller class="faq__spollers spollers">
+						<div class="spollers__item">
+							<button type="button" data-spoller class="spollers__title">Can I play the lottery online?</button>
+							<div class="spollers__body">Lorem ipsum dolor sit amet consectetur adipisicing elit. Fuga illum in, quidem id, perspiciatis asperiores dolorem officia nam maiores consequatur aliquid ipsum adipisci! Assumenda cumque sed quos voluptatibus, sapiente incidunt.</div>
+						</div>
+						<div class="spollers__item">
+							<button type="button" data-spoller class="spollers__title">How will I get my wins?</button>
+							<div class="spollers__body">Lorem ipsum dolor sit amet consectetur adipisicing elit. Fuga illum in, quidem id, perspiciatis asperiores dolorem officia nam maiores consequatur aliquid ipsum adipisci! Assumenda cumque sed quos voluptatibus, sapiente incidunt.</div>
+						</div>
+						<div class="spollers__item">
+							<button type="button" data-spoller class="spollers__title">Is it safe to play lottery online?</button>
+							<div class="spollers__body">Lorem ipsum dolor sit amet consectetur adipisicing elit. Fuga illum in, quidem id, perspiciatis asperiores dolorem officia nam maiores consequatur aliquid ipsum adipisci! Assumenda cumque sed quos voluptatibus, sapiente incidunt.</div>
+						</div>
+					</div>
+				</div>
+			</section>
+		</main>
+		<footer class="footer">
+			<div class="footer__container">
+				<div class="footer__body">
+					<div class="footer__info">
+						<div class="footer__whatsapp">
+							<a href="#" class="footer__whatsapp-link"><picture><source srcset="img/footer/whatsapp.webp" type="image/webp"><img src="img/footer/whatsapp.png" alt=""></picture></a>
+							<div class="footer__whatsapp-content">
+								<div class="footer__whatsapp-title">Live chat by WhatsApp</div>
+								<div class="footer__whatsapp-subtitle">Customer Service</div>
+							</div>
+						</div>
+						<div class="footer__columns">
+							<div class="footer__links">
+								<h3 class="footer__links-title">USEFUL LINKS</h3>
+								<div class="footer__links-body">
+									<ul class="footer__links-list">
+										<li><a href="#" class="footer__links-link">Lottery Results & Winners</a></li>
+										<li><a href="#" class="footer__links-link">Lottery Promotions</a></li>
+										<li><a href="#" class="footer__links-link">About Us</a></li>
+										<li><a href="#" class="footer__links-link">Contact Us</a></li>
+										<li><a href="#" class="footer__links-link">Terms & Conditions</a></li>
+									</ul>
+									<ul class="footer__links-list">
+										<li><a href="#" class="footer__links-link">Security</a></li>
+										<li><a href="#" class="footer__links-link">Privacy Policy</a></li>
+										<li><a href="#" class="footer__links-link">Acceptable Use Policy</a></li>
+										<li><a href="#" class="footer__links-link">Website Use Policy</a></li>
+										<li><a href="#" class="footer__links-link">Affiliate program</a></li>
+									</ul>
+								</div>
+							</div>
+							<div class="footer__smartwinners">
+								<h3 class="footer__smartwinners-title">SMARTWINNERS</h3>
+								<div class="footer__smartwinners-text">The trade name SmartWinners and all content on this website is a copyright of SmartWinners Limited. All rights reserved. We are an independent lottery ticket purchasing service. We are not affiliated with nor are we endorsed by any State sanctioned lottery organization. We make no claims on our site to be such.</div>
+								<div class="footer__smartwinners-address">Our registered business address is <br> Unit 6158, PO Box 6945, London, W1A <br> 6US, United Kingdom.</div>
+							</div>
+						</div>
+					</div>
+					<div class="footer__action" data-da=".footer__columns, 768">
+						<div class="footer__social" data-da=".footer__security, 767.98">
+							<a href="#"><picture><source srcset="img/footer/facebook.webp" type="image/webp"><img src="img/footer/facebook.png" alt="facebook"></picture></a>
+							<a href="#"><picture><source srcset="img/footer/twitter.webp" type="image/webp"><img src="img/footer/twitter.png" alt="twitter"></picture></a>
+							<a href="#"><picture><source srcset="img/footer/facebook-messenger.webp" type="image/webp"><img src="img/footer/facebook-messenger.png" alt="facebook-messenger"></picture></a>
+						</div>
+						<div class="footer__payment">
+							<div class="footer__payment-title">PAYMENT METHODS</div>
+							<div class="footer__payment-cards">
+								<a href="#"><picture><source srcset="img/footer/1.webp" type="image/webp"><img src="img/footer/1.png" alt="card"></picture></a>
+								<a href="#"><picture><source srcset="img/footer/2.webp" type="image/webp"><img src="img/footer/2.png" alt="card"></picture></a>
+								<a href="#"><picture><source srcset="img/footer/3.webp" type="image/webp"><img src="img/footer/3.png" alt="card"></picture></a>
+								<a href="#"><picture><source srcset="img/footer/4.webp" type="image/webp"><img src="img/footer/4.png" alt="card"></picture></a>
+								<a href="#"><picture><source srcset="img/footer/5.webp" type="image/webp"><img src="img/footer/5.png" alt="card"></picture></a>
+								<a href="#"><picture><source srcset="img/footer/6.webp" type="image/webp"><img src="img/footer/6.png" alt="card"></picture></a>
+								<a href="#"><picture><source srcset="img/footer/7.webp" type="image/webp"><img src="img/footer/7.png" alt="card"></picture></a>
+								<a href="#"><picture><source srcset="img/footer/8.webp" type="image/webp"><img src="img/footer/8.png" alt="card"></picture></a>
+								<a href="#"><picture><source srcset="img/footer/9.webp" type="image/webp"><img src="img/footer/9.png" alt="card"></picture></a>
+							</div>
+						</div>
+						<div class="footer__security">
+							<div class="footer__security-title">SECURITY & TRUST</div>
+							<div class="footer__security-items">
+								<a href="#"><picture><source srcset="img/footer/ctv.webp" type="image/webp"><img src="img/footer/ctv.png" alt=""></picture></a>
+								<a href="#"><picture><source srcset="img/footer/comodo.webp" type="image/webp"><img src="img/footer/comodo.png" alt=""></picture></a>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</footer>
+	</div>
+	<!-- <div id="popup" aria-hidden="true" class="popup">
+	<div class="popup__wrapper">
+		<div class="popup__content">
+			<button data-close type="button" class="popup__close">Закрыть</button>
+			<div class="popup__text">
+				Text
+			</div>
+		</div>
+	</div>
+</div> -->
+	<script src="js/app.min.js?_v=20220426170025"></script>
 </body>
+
 </html>
